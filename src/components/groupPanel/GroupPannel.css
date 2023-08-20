@@ -1,0 +1,157 @@
+
+  .group {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/.9;
+  } 
+
+  .group-child81,
+  .subtract-parent {
+    position: absolute;
+    top: 0.43rem;
+    left: 11.42rem;
+    width: 0.56rem;
+    height: 0.54rem;
+    
+  }
+  .subtract-parent {
+    top: 1.25rem;
+    left: 1.25rem;
+    width: 15.13rem;
+    height: 12.06rem;
+  }
+  .mask-group-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15.13rem;
+    height: 12.06rem;
+  }
+  .subtract-icon2 {
+    position: absolute;
+    top: 0.94rem;
+    left: 0.94rem;
+    width: 13.25rem;
+    height: 10.54rem;
+  }
+  .k-parent,
+  .k1,
+  .k2 {
+    position: absolute;
+  }
+  .k2 {
+    top: 38.22%;
+    left: 83.7%;
+    font-weight: 500;
+    text-align: right;
+  }
+  .k-parent {
+    height: 81.4%;
+    width: 76.03%;
+    top: 11.41%;
+    right: 11.98%;
+    bottom: 7.2%;
+    left: 11.98%;
+  }
+
+  .k,
+  .k1 {
+    top: 91.08%;
+    font-weight: 500;
+  }
+  .k {
+    position: absolute;
+    left: 5.43%;
+  }
+  .k1 {
+    left: 83.7%;
+    text-align: right;
+  }
+  .div53 {
+    top: 91.08%;
+    left: 83.15%;
+    text-align: right;
+  }
+  .div53,
+  .div54,
+  .div55,
+  .div56 {
+    position: absolute;
+    font-weight: 500;
+  }
+  .div54 {
+    top: 0;
+    left: 46.2%;
+    text-align: center;
+  }
+  .div55,
+  .div56 {
+    top: 38.22%;
+  }
+  .div55 {
+    left: 92.39%;
+    text-align: right;
+  }
+  .div56 {
+    left: 0;
+  }
+  .group-child79 {
+    position: absolute;
+    top: 0;
+    left: 0.45rem;
+    width: 8.63rem;
+    height: 8.98rem;
+  }
+  .div57 {
+    position: absolute;
+    top: 26.58%;
+    left: 0;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  .group-child80,
+  .group-parent8 {
+    position: absolute;
+    top: 0.43rem;
+    left: 0.22rem;
+    width: 1.78rem;
+    height: 1.64rem;
+    background-color: #454550;
+    border-radius: 50%;
+    
+  }
+  .group-parent8 {
+    top: 3.25rem;
+    left: 2.8rem;
+    width: 9.07rem;
+    height: 8.63rem;
+    text-align: center;
+    font-size: 1.13rem;
+    color: #e3e3e4;
+  }
+
+  .kg,
+  .parent9,
+  .wob {
+    position: absolute;
+  }
+  .kg {
+    top: 73.42%;
+    left: 26.19%;
+    color: #6f6f79;
+  }
+  .parent9 {
+    height: 57.25%;
+    width: 28.93%;
+    top: 21.01%;
+    right: 33.06%;
+    bottom: 21.74%;
+    left: 38%;
+  }
+  .wob {
+    top: 0;
+    left: 9.52%;
+    color: #b1b1b2;
+  }
