@@ -7,6 +7,7 @@ import pvt from "../../assets/images/menu/pvt.svg";
 import tally from "../../assets/images/menu/tally.svg";
 import traces from "../../assets/images/menu/traces.svg";
 import logo from "../../assets/images/menu/Logo.svg";
+import dots from "../../assets/images/menu/3dot.svg";
 
 export const Menu = () => {
   const imagesList = [
@@ -47,14 +48,20 @@ export const Menu = () => {
     },
   ];
   return (
-    <div className='menu container-fluid w-100 h-100 d-flex flex-column ' >
-      {imagesList.map((image, index) => (
-        <div className='d-flex flex-column justify-content-between align-items-center w-100 p-2'>
-          <img key={image.name} src={image.src} alt={image.alt} />
-       { index>0 &&<p>{image.name}</p>}
-        </div>
-      ))}
+
+    <div className='d-flex flex-column justify-content-between w-100 h-100  pb-2'>
+      <div className='menu  d-flex flex-column pt-2 ' >
+        {imagesList.map((image, index) => (
+          <div className='d-flex flex-column justify-content-between align-items-center w-100 p-2'>
+            <img key={image.name} src={image.src} alt={image.alt} />
+            {index > 0 && <p>{image.name}</p>}
+          </div>
+        ))}
+      </div>
+      <img src={dots} alt={dots} />
 
     </div>
+
+
   )
 }
