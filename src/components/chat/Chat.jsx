@@ -1,8 +1,10 @@
 import React from 'react'
 import './chat.css';
 import iconq from "../../assets/images/iconq.svg";
-
-
+import people from "../../assets/images/chat/people.svg";
+import az from "../../assets/images/chat/az.svg";
+import search from "../../assets/images/chat/search.svg";
+import bell from "../../assets/images/chat/bell.svg";
 /// ...
 export const Chat = () => {
     return (
@@ -10,20 +12,24 @@ export const Chat = () => {
 
 
 
-            <div className='position-absolute top-0 start-0' style={{ height: '87px' }}>
-                <div className='d-flex flex-row p-3 ' >
+            <div className='position-absolute w-100 top-0 start-0 d-flex align-items-center justify-content-between' style={{ height: '87px' }}>
+                <div className='d-flex p-3 ' >
                     <div className='rounded-circle d-flex align-items-center justify-content-center' style={{ backgroundColor: '#454550', width: '47px', height: '47px' }}>
                         <p className='' style={{ fontSize: '18px', fontWeight: '600' }}>RG</p></div>
                     <div className='ps-2'>
                         <p className='pt-0 mt-0' style={{ fontSize: '25px', fontWeight: '400' }}>Driller chat</p>
                         <p className='pt-0 mt-0' style={{ fontSize: '15px', fontWeight: '400', color: 'var(--text-color-disable)' }}>online</p>
                     </div>
-
-
+                    
+                   
                 </div>
-                <div>
+                <div className='d-flex  align-items-center'>
+                        <img className='mx-2' src={az} />
+                        <img className='mx-2' src={people} />
+                        <img className='mx-2' src={search} />
+                        <img className='mx-2' src={bell} />
 
-                </div>
+                    </div>
 
             </div>
 
@@ -47,9 +53,9 @@ export const Chat = () => {
                     <p style={{ fontSize: '12px', fontWeight: '400', color: 'var(--text-color-enable-prime)', }}>16:46</p> </div>
 
                 <div className='d-flex justify-content-center align-items-center m-2' style={{ opacity: '0.8' }}>
-                    <p className=' border-top mx-2' style={{  borderColor: 'var(--text-color-enable-prime)' }}></p>
+                    <p className=' border-top mx-2' style={{ borderColor: 'var(--text-color-enable-prime)' }}></p>
                     <p style={{ fontSize: '12px', fontWeight: '400', color: 'var(--text-color-enable-prime)', }}>12 november 2022</p>
-                    <p className=' border-top mx-2' style={{  borderColor: 'var(--text-color-enable-prime)' }}></p>
+                    <p className=' border-top mx-2' style={{ borderColor: 'var(--text-color-enable-prime)' }}></p>
 
                 </div>
 
@@ -68,7 +74,7 @@ export const Chat = () => {
                     <p style={{ fontSize: '12px', fontWeight: '400', color: 'var(--text-color-enable-prime)', }}>16:46</p> </div>
 
 
-                  
+
                 <div className='d-flex rounded mx-2 bottom-0'>
                     <button className=' text-light border-0 w-50 rounded-start' style={{ background: '#22B692', height: '55px', fontSize: '23px', fontWeight: '500' }}>2 @ 180    </button>
                     <button className=' text-light border-0 w-50 rounded-end' style={{ background: '#22B692', height: '55px', fontSize: '23px', fontWeight: '500' }}>ACKNOWLEDGE</button>
