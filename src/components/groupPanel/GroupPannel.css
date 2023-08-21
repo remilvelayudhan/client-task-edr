@@ -2,7 +2,8 @@
   .group {
     position: relative;
     width: 100%;
-    aspect-ratio: 1/.9;
+    margin-top: 0;
+    aspect-ratio: 1/.75;
   } 
 
   .group-child81,

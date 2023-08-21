@@ -3,7 +3,7 @@
   color: var(--text-color-enable-prime);
   /* grid-template-columns: 122px 15% auto 30% 168px;
   grid-template-rows: 72px auto 97px; */
-  grid-template-columns: 122px 1fr 3fr 2fr 168px;
+  grid-template-columns: 122px 280px 3fr 2fr 168px;
   grid-template-rows: 72px auto 97px;
  height: 100vh;
   background-color: var(--background-color);

@@ -29,13 +29,8 @@ export const Chat = () => {
 
             <div className='d-flex flex-column position-absolute ' style={{
                 top: '87px', bottom: '65px',
-                overflowX: 'hidden', overflowY: 'scroll', background: 'var(--selected-background-color)', scrollbarWidth: "thin"
+                overflowX: 'hidden', overflowY: 'scroll', background: 'var(--selected-background-color)',
             }} >
-
-
-
-               
-
 
                 <div className=' align-self-start    m-2 p-2 rounded' style={{
                     backgroundColor: '#F13232', fontSize: '19px', maxWidth: '75%',
@@ -52,9 +47,9 @@ export const Chat = () => {
                     <p style={{ fontSize: '12px', fontWeight: '400', color: 'var(--text-color-enable-prime)', }}>16:46</p> </div>
 
                 <div className='d-flex justify-content-center align-items-center m-2' style={{ opacity: '0.8' }}>
-                    <p className=' border-top mx-2' style={{ width: '100px', borderColor: 'var(--text-color-enable-prime)' }}></p>
+                    <p className=' border-top mx-2' style={{  borderColor: 'var(--text-color-enable-prime)' }}></p>
                     <p style={{ fontSize: '12px', fontWeight: '400', color: 'var(--text-color-enable-prime)', }}>12 november 2022</p>
-                    <p className=' border-top mx-2' style={{ width: '100px', borderColor: 'var(--text-color-enable-prime)' }}></p>
+                    <p className=' border-top mx-2' style={{  borderColor: 'var(--text-color-enable-prime)' }}></p>
 
                 </div>
 

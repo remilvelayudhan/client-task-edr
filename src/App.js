@@ -6,6 +6,7 @@ import {Header} from './components/header/Header'
 import {Chat} from './components/chat/Chat'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faKey ,faMagnifyingGlass,faBell} from '@fortawesome/free-solid-svg-icons';
+import { GroupPannel } from './components/groupPanel/GroupPannel';
 
 library.add(faEnvelope, faKey,faBell);
 
@@ -17,7 +18,7 @@ function App() {
     <div className="container-fluid"> 
     <div className='menu'>{<Menu/>}</div>
     <div className='header'>{<Header/>}</div>
-    <div className='group-metre'>grop items</div>
+    <div className='group-metre'>{<GroupPannel/>}</div>
     <div className='main-metre'>main-metre</div>
     <div className='chat'>{<Chat/>}</div>
     <div className='info-bar'>{<Info/>}</div>
